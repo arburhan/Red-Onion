@@ -1,0 +1,8 @@
+.banner-parent {
+    background-image: url('../../../../Media/images/bannerbackground.png');
+    width: 97.4%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: -25px;
+}
