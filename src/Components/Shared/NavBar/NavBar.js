@@ -15,13 +15,13 @@ const NavBar = () => {
         <li>
             <Link to='' >Login</Link>
         </li>
-        <li className=' md:px-3 bg-[#f91944]  rounded-[50px] text-white'>
-            <Link className='hover:bg-[#f91944] active:bg-[#f91944]' to='' >Sign up</Link>
+        <li className=' md:px-3 bg-[#f91944]  rounded-[800px] text-white'>
+            <Link className='' to='' >Sign up</Link>
         </li>
     </>
     return (
         <nav>
-            <div className="navbar bg-base-100 place-content-around">
+            <div className="navbar bg-white place-content-around py-8 text-black">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabindex={0} className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ const NavBar = () => {
                             {navTabs}
                         </ul>
                     </div>
-                    <img className='w-[180px]' src={NavLogo} alt="red onion logo" />
+                    <Link to='/' ><img className='w-[180px]' src={NavLogo} alt="red onion logo" /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
